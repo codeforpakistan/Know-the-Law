@@ -1,0 +1,321 @@
+<!--css for admin login form-->
+
+.login-header {
+    padding-top: 30px;
+    height: 120px;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.remember {
+    margin-top: 3px;
+}
+
+.green {
+    color: #458746;
+}
+
+.red {
+    color: #B94846;
+}
+
+.blue {
+    color: #3986AC;
+}
+
+.yellow {
+    color: #F99406;
+}
+
+.login-box .input-prepend {
+    margin-bottom: 10px;
+}
+
+.login-box .btn {
+    margin-top: 15px;
+    width: 100%
+}
+<!--css for lawyer profile-->
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}
+
+<!--css for map -->
+ .map {
+        min-width: 300px;
+        min-height: 300px;
+        width: 100%;
+        height: 100%;
+    }
+.mobile {
+        background-color: #F5F5F5;
+        color: #36A0FF;
+        height: 70px;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+.no_bullet{ 
+list-style-type: none; 
+}
+
+ #searchbox_container{
+ background-color:rgba(215, 212, 212, 0.88);
+ margin-top:10px;
+  width:100%;
+  margin-bottom:70px;
+ }
+  #cnt1 {            
+     background-color:rgba(215, 212, 212, 0.88);
+     width:90%;
+     margin-bottom:70px;
+ }
+  
+ .feature{
+     padding: 20px 0;
+    text-align: center;
+ }
+ .feature > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+ }
+ .feature > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 5px;
+    background: rgba(232, 215, 215, 0.10);
+    transition: 0.3s;
+ }/**
+ * Extra large button extensions. Extends `.btn`.
+ */
+.btn-xlarge {
+    padding: 10px 280px;
+    font-size: 22px;
+   
+    }
+
+.left-inner-addon {
+    position: relative;
+}
+#down_from_upside{
+padding-top:80px;
+}
+.hero.container-fluid {
+    padding: 0;
+}
+.hero .message-1 {
+    background: #356DBF;
+    color: #333;
+}
+.hero .message-2 {
+    background: #3BBF6A;
+    color: #333;
+}
+.hero .message-3 {
+    background: #BF4042;
+    color: #333;
+}
+    .hero .message-1:hover,
+    .hero .message-2:hover,
+    .hero .message-3:hover {
+        color: #fff;
+    }
+    .hero .message-1:active,
+    .hero .message-2:active,
+    .hero .message-3:active {
+        color: #fff;
+        opacity: 1;
+    }
+.hero .btn.message-1,
+.hero .btn.message-2,
+.hero .btn.message-3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+    .hero .btn.message-1:hover {
+        background: #23497F;
+    }
+    .hero .btn.message-2:hover {
+        background: #277F46;
+    }
+    .hero .btn.message-3:hover {
+        background: #7F2B2C;
+    }
+.hero h1.message-1,
+.hero h1.message-1:hover,
+.hero h1.message-2,
+.hero h1.message-2:hover,
+.hero h1.message-3,
+.hero h1.message-3:hover {
+    background: none;
+    color: #fff;
+}
+.hero .carousel-indicators {
+    bottom: -10px;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+}
+    .hero .carousel-indicators li {
+        border: none;
+        border-radius: inherit;
+        cursor: pointer;
+        display: inline-block;
+        height: 80px;
+        margin: 0px;
+        padding: 25px 0;
+        opacity: .9;
+        text-indent: 0;
+    }
+    .hero .carousel-indicators .col-sm-4 {
+        width: 33.33333333333333%;
+    }
+    .hero .carousel-indicators .col-sm-3 {
+        width: 25%;
+    }
+    .hero .carousel-indicators .active {
+        height: 80px;
+        opacity: 1;
+    }
+    .hero .carousel-indicators li .caption {
+        font-size: 20px;
+        font-weight: bold;
+        height: 100%;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    .hero .carousel-indicators li.active .caption {
+        background: inherit;
+        box-shadow: 0.157px 2.996px 4px 0px #5a5a5a;
+        color: #fff;
+        height: 110px;
+        padding: 40px 20px;
+        position: absolute;
+        opacity: 1;
+        top: -15px;
+        z-index: 100;
+    }
+.hero .carousel-inner .item {
+    height: 500px;
+}
+    .hero .carousel-inner .item .carousel-card {
+        height: 500px;
+        width: 100%;
+    }
+.hero .carousel-caption {
+    bottom: 100px;
+}
+    .hero .carousel-caption h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+@media (max-width: 991px) {
+    .hero .carousel-indicators li .caption {
+        font-size: 17px;
+    }
+}
+@media (max-width: 767px) {
+    .hero .carousel-indicators .col-sm-4 {
+        width: 10px;
+    }
+    .hero .carousel-indicators .col-sm-3 {
+        width: 10px;
+    }
+    .hero .carousel-indicators {
+        bottom: 250px;
+    }
+        /* no change from bootstrap code */
+        .hero .carousel-indicators li {
+            background-color: #000 \9;
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid #fff;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block;
+            height: 10px;
+            margin: 1px;
+            padding: 0;
+            text-indent: -999px;
+            width: 10px;
+        }
+        .hero .carousel-indicators .active {
+            background-color: #fff;
+            height: 12px;
+            margin: 0;
+            width: 12px;
+        }
+        .hero .carousel-indicators li .caption {
+            display: none;
+        }
+    .hero .carousel-inner .item {
+        height: 600px;
+    }
+        .hero .carousel-inner .item .carousel-card {
+            background-position: 50% 0;
+            height: 400px;
+            width: 100%;
+        }
+    .hero .carousel-caption {
+        bottom: 0px;
+    }
+    .hero h1.message-1,
+    .hero h1.message-1:hover {
+        background: none;
+        color: #23497F;
+    }
+    .hero h1.message-2,
+    .hero h1.message-2:hover {
+        background: none;
+        color: #277F46;
+    }
+    .hero h1.message-3,
+
+    .hero h1.message-3:hover {
+        background: none;
+        color: #7F2B2C;
+    }
+}
+@media (max-width: 500px) {
+    .hero .carousel-caption h1 {
+        font-size: 35px;
+    }
+}
